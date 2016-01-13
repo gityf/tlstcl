@@ -1,0 +1,21 @@
+
+TLS Release 1.3
+
+Before compiling check and configure the makefile for the following variables:
+
+TCL_VERSION	= 82
+TCL_ROOT	= $(SYSTEMDRIVE)\tcl$(TCL_VERSION)
+TCL_LIBRARY	= "$(TCL_LIB)\tcl$(TCL_VERSION)$(DBGX).lib" 
+
+SSL_ROOT	= e:/openssl
+# Set to 0 to link against US/Patented openssl library
+SSL_EXPORT	= 1
+# Set to "" for dll linkage (as opposed to static)
+SSL_STATIC	= s
+# Uncomment if using a pre- 0.9.4 version of OpenSSL
+#SSL_DEFINES	= -DPRE_OPENSSL_0_9_4
+
+
+Then just "nmake" and "nmake install" should do the trick!
+
+Matt Newman

@@ -1,0 +1,3 @@
+The http.tcl is the patched version that has been submitted to Scriptics
+for inclusion in 8.2.1, and is provided here for those of you
+that don't have this yet - it should work with any 8.x interp.

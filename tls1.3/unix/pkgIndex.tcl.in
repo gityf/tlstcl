@@ -1,0 +1,2 @@
+package ifneeded @PACKAGE@ @VERSION@ [list load [file join $dir @LIB_FILE@]]
+

@@ -1,0 +1,11 @@
+
+# Build configure script (if needed)
+#autoconf
+
+# Run configure script
+#ssl=/usr/local/openssl
+./configure --prefix=/usr/local/tcl8.2 
+#--enable-shared --with-ssl-dir=$ssl
+
+#make
+#make install
